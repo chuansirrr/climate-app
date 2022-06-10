@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B3B76B82850E08000A682E3 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3B76B72850E08000A682E3 /* Event.swift */; };
+		9B3B76BA2850E0A200A682E3 /* eventCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3B76B92850E0A200A682E3 /* eventCreation.swift */; };
+		9B3B76BE2850E11500A682E3 /* eventData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B3B76BD2850E11500A682E3 /* eventData.json */; };
 		B04488A12850421B00124285 /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04488A02850421B00124285 /* EventListView.swift */; };
 		B04488A5285042A600124285 /* OneEventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04488A4285042A600124285 /* OneEventListView.swift */; };
 		B04488A7285049E500124285 /* OneEventListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04488A6285049E500124285 /* OneEventListRow.swift */; };
@@ -44,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B3B76B72850E08000A682E3 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		9B3B76B92850E0A200A682E3 /* eventCreation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventCreation.swift; sourceTree = "<group>"; };
+		9B3B76BD2850E11500A682E3 /* eventData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = eventData.json; sourceTree = "<group>"; };
 		B04488A02850421B00124285 /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
 		B04488A4285042A600124285 /* OneEventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneEventListView.swift; sourceTree = "<group>"; };
 		B04488A6285049E500124285 /* OneEventListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneEventListRow.swift; sourceTree = "<group>"; };
@@ -91,14 +97,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B04488A8285386BD00124285 /* EventListPage */ = {
+		9B3B76B62850E06F00A682E3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B04488A02850421B00124285 /* EventListView.swift */,
-				B04488A4285042A600124285 /* OneEventListView.swift */,
-				B04488A6285049E500124285 /* OneEventListRow.swift */,
+				9B3B76B72850E08000A682E3 /* Event.swift */,
+				9B3B76B92850E0A200A682E3 /* eventCreation.swift */,
 			);
-			path = EventListPage;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9B3B76BC2850E0FA00A682E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9B3B76BD2850E11500A682E3 /* eventData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		B05BEC75284EE8D40087B433 = {
@@ -124,6 +137,8 @@
 		B05BEC80284EE8D40087B433 /* climate */ = {
 			isa = PBXGroup;
 			children = (
+				9B3B76BC2850E0FA00A682E3 /* Resources */,
+				9B3B76B62850E06F00A682E3 /* Model */,
 				B05BEC81284EE8D40087B433 /* climateApp.swift */,
 				B05BEC83284EE8D40087B433 /* ContentView.swift */,
 				B04488A928538A1C00124285 /* EventDetailView.swift */,
@@ -286,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B05BEC89284EE8D60087B433 /* Preview Assets.xcassets in Resources */,
+				9B3B76BE2850E11500A682E3 /* eventData.json in Resources */,
 				B05BEC86284EE8D60087B433 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +331,7 @@
 				B04488A7285049E500124285 /* OneEventListRow.swift in Sources */,
 				B04488A12850421B00124285 /* EventListView.swift in Sources */,
 				B05BEC84284EE8D40087B433 /* ContentView.swift in Sources */,
+				9B3B76B82850E08000A682E3 /* Event.swift in Sources */,
 				B05BECB4284EFC2F0087B433 /* BigDuke.swift in Sources */,
 				B05BECB2284EF9000087B433 /* SchoolShield.swift in Sources */,
 				B05BECBF284F8BB70087B433 /* UserHomePageButton.swift in Sources */,
@@ -323,6 +340,7 @@
 				B05BEC82284EE8D40087B433 /* climateApp.swift in Sources */,
 				B04488A5285042A600124285 /* OneEventListView.swift in Sources */,
 				B05BECBC284F89EE0087B433 /* UserHomeView.swift in Sources */,
+				9B3B76BA2850E0A200A682E3 /* eventCreation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
