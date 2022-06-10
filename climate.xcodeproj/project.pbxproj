@@ -10,6 +10,7 @@
 		B04488A12850421B00124285 /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04488A02850421B00124285 /* EventListView.swift */; };
 		B04488A5285042A600124285 /* OneEventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04488A4285042A600124285 /* OneEventListView.swift */; };
 		B04488A7285049E500124285 /* OneEventListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04488A6285049E500124285 /* OneEventListRow.swift */; };
+		B04488AA28538A1C00124285 /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04488A928538A1C00124285 /* EventDetailView.swift */; };
 		B05BEC82284EE8D40087B433 /* climateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05BEC81284EE8D40087B433 /* climateApp.swift */; };
 		B05BEC84284EE8D40087B433 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05BEC83284EE8D40087B433 /* ContentView.swift */; };
 		B05BEC86284EE8D60087B433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B05BEC85284EE8D60087B433 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		B04488A02850421B00124285 /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
 		B04488A4285042A600124285 /* OneEventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneEventListView.swift; sourceTree = "<group>"; };
 		B04488A6285049E500124285 /* OneEventListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneEventListRow.swift; sourceTree = "<group>"; };
+		B04488A928538A1C00124285 /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
 		B05BEC7E284EE8D40087B433 /* climate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = climate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B05BEC81284EE8D40087B433 /* climateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = climateApp.swift; sourceTree = "<group>"; };
 		B05BEC83284EE8D40087B433 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +91,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B04488A8285386BD00124285 /* EventListPage */ = {
+			isa = PBXGroup;
+			children = (
+				B04488A02850421B00124285 /* EventListView.swift */,
+				B04488A4285042A600124285 /* OneEventListView.swift */,
+				B04488A6285049E500124285 /* OneEventListRow.swift */,
+			);
+			path = EventListPage;
+			sourceTree = "<group>";
+		};
 		B05BEC75284EE8D40087B433 = {
 			isa = PBXGroup;
 			children = (
@@ -113,10 +125,9 @@
 			isa = PBXGroup;
 			children = (
 				B05BEC81284EE8D40087B433 /* climateApp.swift */,
-				B04488A02850421B00124285 /* EventListView.swift */,
-				B04488A4285042A600124285 /* OneEventListView.swift */,
-				B04488A6285049E500124285 /* OneEventListRow.swift */,
 				B05BEC83284EE8D40087B433 /* ContentView.swift */,
+				B04488A928538A1C00124285 /* EventDetailView.swift */,
+				B04488A8285386BD00124285 /* EventListPage */,
 				B05BECBD284F8B760087B433 /* UserHomePage */,
 				B05BECBA284F89C00087B433 /* LoginPage */,
 				B05BEC85284EE8D60087B433 /* Assets.xcassets */,
@@ -308,6 +319,7 @@
 				B05BECB2284EF9000087B433 /* SchoolShield.swift in Sources */,
 				B05BECBF284F8BB70087B433 /* UserHomePageButton.swift in Sources */,
 				B05BECB0284EF33F0087B433 /* LoginButton.swift in Sources */,
+				B04488AA28538A1C00124285 /* EventDetailView.swift in Sources */,
 				B05BEC82284EE8D40087B433 /* climateApp.swift in Sources */,
 				B04488A5285042A600124285 /* OneEventListView.swift in Sources */,
 				B05BECBC284F89EE0087B433 /* UserHomeView.swift in Sources */,

@@ -10,10 +10,18 @@ import SwiftUI
 struct EventListView: View {
     var body: some View {
         
-        VStack{
+        NavigationView{
+        ScrollView{
+            NavigationLink{
+                EventDetailView()
+            }label: {
+                OneEventListView(image: Image("eventList1"), name: "University Worship", date: "Mon, May 23, 2022", time: "7:30 pm - 8:30 pm", location: "Signature Theater Virtual Event")
+            }
             OneEventListView(image: Image("eventList1"), name: "University Worship", date: "Mon, May 23, 2022", time: "7:30 pm - 8:30 pm", location: "Signature Theater Virtual Event")
             OneEventListView(image: Image("eventList1"), name: "University Worship", date: "Mon, May 23, 2022", time: "7:30 pm - 8:30 pm", location: "Signature Theater Virtual Event")
             OneEventListView(image: Image("eventList1"), name: "University Worship", date: "Mon, May 23, 2022", time: "7:30 pm - 8:30 pm", location: "Signature Theater Virtual Event")
+           
+        }
         }
     }
 }
